@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'199Fix', 'url': 'http://pypi.python.org/pypi/199Fix/1.1.2'},
 	{'name':'15five-django-ajax-selects', 'url': 'http://pypi.python.org/pypi/15five-django-ajax-selects/1.5.2.155'},
     ]
     context = {
